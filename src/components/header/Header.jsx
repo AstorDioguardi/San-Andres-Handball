@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { TbPlayHandball } from "react-icons/tb";
-import logoClub from '../../assets/icons/logo-club.svg';
+import logoClub from '../../assets/icons/logo-club.png';
 import changeImg from '../../assets/icons/ball.png'
 import BurgerButton from './BurgerButton';
 
@@ -74,7 +74,7 @@ const NavContainer = styled.nav`
     font-weight: 500;
   }
   .logo{
-    width: 4rem;
+    width: 5rem;
   }
   .header__logo-sport {
     color: #fff;

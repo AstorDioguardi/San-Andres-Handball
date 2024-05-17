@@ -13,28 +13,19 @@ main {
 
 .carousel-control-next, 
 .carousel-control-prev {
-  width: 5%;
-  opacity: 1;
-}
-
-.carousel-control-prev {
-  box-shadow: inset 30px 0px 20px rgba(0, 0, 0, .2);
-}
-
-.carousel-control-next {
-  box-shadow: inset -30px 0px 20px rgba(0, 0, 0, .2);
-
+  width: 5% !important;
+  opacity: 1 !important;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  width: 5rem;
-  height: 5rem;
+  width: 3rem !important;
+  height: 3rem !important;
   
-
+ 
   transition: .2s ease-in-out;
   
   &:hover {
     transform: scale(1.4, 1.4);
-  }
+  } 
 }
