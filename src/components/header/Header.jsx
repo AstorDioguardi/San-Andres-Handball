@@ -66,6 +66,8 @@ const NavContainer = styled.nav`
   align-items: center;
   justify-content: space-between;
   z-index: 999;
+  position: fixed;
+  width: 100%;
   a {
     color: #fff;
     text-decoration: none;
